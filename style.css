@@ -1,0 +1,52 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.title {
+    font-size: 3em;
+}
+
+.listing {
+    display: flex;
+    padding: 1rem;
+    gap: 2rem; /* Increase space between child elements */
+    max-width: 700px; /* Set maximum width */
+    background-color: rgb(189, 189, 189);
+    border-radius: 10px;
+}
+
+.nameinfo {
+    display: grid;
+    grid-template-rows: 1fr auto; /* Adjust row template for more space between name and info */
+}
+
+.listing_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 8px; /* Optional: Add border-radius for a rounded look */
+}
+
+.price {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-bottom: 3rem;
+}
+
+.price h1 {
+    color: green; /* Set text color to green */
+    cursor: pointer;
+}
+
+.card-container {
+    display: grid;
+    gap: 2rem; /* Adjust gap between cards */
+    justify-content: space-around; /* Distribute space between cards */
+}
+
+.searchbox {
+    border-color: black;
+    border: 3px rgb(0, 0, 0);
+    border-style: double;
+    border-radius: 5px;
+}
